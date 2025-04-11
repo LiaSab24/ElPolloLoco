@@ -10,6 +10,6 @@ function init() {
 
     character. src = '../img/pepe/caminata/1.png';
     
-    ctx.drawImage(character, 100, 200, 150, 50);
+    ctx.drawImage(character, 100, 400, 150, 50);
 
 }

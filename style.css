@@ -7,7 +7,7 @@
   body {
     font-family: 'Poppins', sans-serif;
     background-color: #f0f0f0;
-    color: #333;
+    color: rgb(210,176,123);
     display: grid;
     place-items: center;
     height: 100vh;

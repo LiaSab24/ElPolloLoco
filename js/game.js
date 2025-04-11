@@ -8,7 +8,7 @@ function init() {
     canvas.height = 480;
     ctx = canvas.getContext("2d");
 
-    character. src = '../img/pepe/caminata/1.png';
+    character. src = 'img/pepe/caminata/1.png';
     
     ctx.drawImage(character, 100, 400, 150, 50);
 

@@ -11,7 +11,7 @@ function init() {
     character.src = 'img/pepe/caminata/1.png';
   
     character.onload = function () {
-      ctx.drawImage(character, 100, 400, 150, 50);
+      ctx.drawImage(character, 100, 400, 50, 170);
     };
   }
   

@@ -1,6 +1,6 @@
 let canvas;
 let ctx;
-let character = new Image();
+let character = new MovableObject();              //Image();
 
 function init() {
     canvas = document.getElementById('canvas');
@@ -11,7 +11,7 @@ function init() {
     character.src = 'img/pepe/caminata/1.png';
   
     character.onload = function () {
-      ctx.drawImage(character, 100, 100, 50, 170);
+      ctx.drawImage(character, height = 50, 170);
     };
   }
   

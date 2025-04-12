@@ -6,7 +6,7 @@ class World{
       new Pirat(),
       new Pirat2(),
     ];
-   
+  
    draw(){
 
    };

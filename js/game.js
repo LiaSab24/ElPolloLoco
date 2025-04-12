@@ -8,10 +8,8 @@ function init() {
   canvas.height = 480;
   ctx = canvas.getContext('2d');
 
-  // Sobald Bild geladen ist, zeichnen
-  character.image.onload = () => {
-    character.draw(ctx);
-  };
+  console.log('my character is:', world.character);
+  
 }
 
 window.onload = init;

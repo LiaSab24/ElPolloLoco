@@ -1,6 +1,6 @@
 class  Character extends MovableObject {
-    width;
-    height;
+    width = 50;
+    height = 150;
 
 
     jump () {

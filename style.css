@@ -21,3 +21,11 @@
   canvas {
     background-color: rgb(152,	133,94);
   }
+  .btn {
+    background-color: #d2b07b;
+    width: 150px;
+    box-shadow: 2px 2px 6px 6px #d2b07b;
+    color: #fff;
+    font-weight: 500;
+    padding: 4px 8px;
+  }

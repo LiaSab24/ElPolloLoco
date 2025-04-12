@@ -4,7 +4,6 @@ class  Character extends MovableObject {
     height = 150;
     img = 'img/pepe/caminata/1.png';
 
-
     jump () {
         
     }

@@ -1,6 +1,6 @@
 class MovableObject {
-    x = 20;
-    y = 20;
+    x = 80;
+    y = 250;
     img;
 
     moveRight(){

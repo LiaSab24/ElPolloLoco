@@ -29,8 +29,13 @@
   .btn {
     background-color: #d2b07b;
     width: 150px;
-    box-shadow: 2px 2px 6px 6px #d2b07b;
+    box-shadow: 1px 1px 10px 2px #d2b07b;
     color: #fff;
-    font-weight: 500;
+    font-weight: 600;
     padding: 4px 8px;
-  }
+    border-radius: 4px;
+    border: none;
+    &:hover{
+      transform: scale(1.3);
+    }
+}

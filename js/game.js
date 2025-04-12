@@ -1,12 +1,5 @@
 let canvas;
 let ctx;
-let character = new Character();
-let pirates = [
-  new Pirat(),
-  new Pirat2(),
-  new Pirat(),
-  new Pirat2(),
-];
 let world = new World();
 
 function init() {

@@ -16,5 +16,4 @@ function init() {
   };
 }
 
-console.log('my Character is', character);
 window.onload = init;

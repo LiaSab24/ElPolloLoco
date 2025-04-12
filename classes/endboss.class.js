@@ -6,7 +6,7 @@ class  Endboss extends MovableObject {
 
     constructor() {
         super();
-        this.loadImage('img/pirat/WALK_000.png');  // oder super().loadImage('img/pirat/WALK_000.png'); super() bezieht sich auf die übergeordnete class
+        this.loadImage('img/endboss/1_WALK_000.png');  // oder super().loadImage('img/endboss/1_WALK_000.png'); super() bezieht sich auf die übergeordnete class
       }
       
     run () { 

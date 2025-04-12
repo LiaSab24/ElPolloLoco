@@ -1,6 +1,6 @@
 let canvas;
 let ctx;
-let character = new MovableObject();              //Image();
+let character = new Character();              //Image();
 
 function init() {
     canvas = document.getElementById('canvas');
@@ -14,5 +14,5 @@ function init() {
       ctx.drawImage(character);
     };
   }
-  
+  console.log('my Character is', character);
   window.onload = init;

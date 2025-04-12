@@ -1,7 +1,7 @@
 class MovableObject {
     x = 80;
     y = 250;
-    img;
+    image;
 
     moveRight(){
         console.log('move right');
@@ -16,7 +16,8 @@ class MovableObject {
    * @param {string} path - Pfad zur Bilddatei
    */
   loadImage(path) {
-    this.image = new Image();
+    this.image = new Image();           // this.image wird ein neues Bild zugewiesen mit new Image(), mgl. wäre auch 
+                                        // this.image = document.getElementById('image'); mit <img id="image"> in HTML
     this.image.src = path;
   }
 

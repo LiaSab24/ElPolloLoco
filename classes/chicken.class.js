@@ -3,7 +3,6 @@ class  Chicken extends MovableObject {
     height;
 
 
-    run () {
-        
+    run () { 
     }
 }

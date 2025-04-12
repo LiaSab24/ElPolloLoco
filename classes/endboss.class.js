@@ -1,6 +1,6 @@
-class  EndBoss extends MovableObject {
+class  Endboss extends MovableObject {
     x = 700;
-    y = 250;
+
     width = 50;
     height = 150;
 
@@ -10,5 +10,6 @@ class  EndBoss extends MovableObject {
       }
       
     run () { 
+        console.log('Running!');
     }
 }

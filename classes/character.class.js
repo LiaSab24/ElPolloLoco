@@ -1,4 +1,4 @@
-class  Character extends World {
+class  Character extends MovableObject {
 
     constructor() {
         super();

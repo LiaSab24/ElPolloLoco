@@ -1,6 +1,8 @@
 class World{
    x = 80;
    y = 250;
+   width = 50;
+   height = 150;
    image;
    character = new Character();
    pirates = [

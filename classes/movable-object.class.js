@@ -1,6 +1,5 @@
 class MovableObject {
     
-
     moveRight(){
         console.log('move right');
     }
@@ -9,5 +8,4 @@ class MovableObject {
         console.log('Move Left');
     }
 
-  
 }

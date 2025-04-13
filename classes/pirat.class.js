@@ -1,7 +1,5 @@
 class  Pirat extends MovableObject {
   x = 700;
-  width = 50;
-  height = 150;
 
   constructor() {
       super();

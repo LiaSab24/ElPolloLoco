@@ -1,4 +1,4 @@
-class  Pirat2 extends MovableObject {
+class  Pirat extends MovableObject {
   x = 700;
   width = 50;
   height = 150;
